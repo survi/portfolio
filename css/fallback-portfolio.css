@@ -1,0 +1,7 @@
+.view {
+	overflow: hidden;
+}
+
+.view:hover img {
+	top: -45px;
+}
