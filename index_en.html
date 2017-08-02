@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>LETA - Vcard Template</title>
+    <title>William WANG</title>
 
     <meta name="description" content="Vcard Template">
     <meta name="author" content="ArtRow">
@@ -16,7 +16,29 @@
     <link rel="stylesheet" href="css/flexslider.css" media="screen">
     <link rel="stylesheet" href="css/fancybox-light.css" media="screen">
 
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.useso.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700' rel='stylesheet' type='text/css'>
+
+    <style type="text/css">
+        img.fillheight {
+            height: auto; 
+            width: auto; 
+            max-width: 220px; 
+            max-height: 165px;
+        }
+
+        img.resume-me {
+            height: auto; 
+            width: auto; 
+            max-width: 230px; 
+        }
+
+        img.me {
+            height: auto; 
+            width: auto; 
+            max-width: 250px; 
+            max-height: 350px;
+        }
+    </style>
 
     <script src="js/jquery-1.8.3.min.js"></script>
     <script src="js/jquery.isotope.min.js"></script>
@@ -34,33 +56,29 @@
         <div id="content-wrapper">
 
             <!-- Logo Demo -->
-            <a id="demo-logo">
+            <!-- <a id="demo-logo">
                 <img src="images/demo-logo.png" alt="" />
-            </a><!-- /Logo Demo -->
+            </a> -->
+            <!-- /Logo Demo -->
 
             <!-- ABOUTME -->
             <div id="aboutme">
 
                 <div class="slider-wrapper"><!-- Flexslider -->
                     <div class="flexslider">
-                        <ul class="slides">
+                        <ul class="">
                             <li>
-                                <img src="images/photocontent/slider_photo_01.jpg" alt="" />
-                                </li>
-                            <li>
-                                <img src="images/photocontent/slider_photo_02.jpg" alt="" />
+                                <img class='me' src="images/me.jpg" alt="" />
                             </li>
-                            <li>
-                                <img src="images/photocontent/slider_photo_03.jpg" alt="" />
-                            </li>
+                            
                         </ul>
                     </div>
                 </div><!-- /Flexslider -->
 
                 <div class="about-wrapper">
                     <div class="title">
-                        <h1>Johnny Doe</h1>
-                        <h5>GRAPHIC & WEB DESIGNER</h5>
+                        <h1>William WANG</h1>
+                        <h5>Development｜Business Analysis</h5>
                     </div>
                     <div class="download-card"><!-- Button Download vCard -->
                         <a href="#" class="button">
@@ -76,7 +94,8 @@
 
                                 <div class="info-slide-item"><!-- 1 -->
                                     <div class="top-border-red">
-                                        <p>Hi, my name is Johnny Doe.<br>Entire summary information you can find on this page. Feel free to take a look around my vCard and don't forget to see the Black Edition. Thanks.</p>
+                                        <p>
+                                            Responsible for the design, development, operation and maintenance of the Order Processing System, Farm Management System, Farm Trace System, and Business Analysis and Intelligence System.</p>
                                     </div>
                                 </div>
 
@@ -84,37 +103,24 @@
                                     <div class="top-border-blue">
                                         <div class="left-column">
                                             <ul class="main-info-list">
-                                                <li>Name<span>Johnny Doe</span></li>
-                                                <li>Birthday<span>January 31, 1986</span></li>
-                                                <li>Address<span>New York City, United States</span></li>
+                                                <li>Position<span>Business Analyst</span></li>
+                                                <li>Company<span>Natural Farm Ltd</span></li>
                                             </ul>
                                         </div>
                                         <div class="right-column">
                                             <ul class="main-info-list">
-                                                <li>Phone<span>+0 (123) 456 789</span></li>
-                                                <li>Email<span>mymail@mail.com</span></li>
-                                                <li>Website<span>www.mysite.com</span></li>
+                                                <li>Phone<span>+86 181 1876 1856</span></li>
+                                                <li>Phone<span>+852 5136 3691</span></li>
+                                                <li>Email<span>wjiuhe@gmail.com</span></li>
+                                                <!-- <li>Website<span>www.mysite.com</span></li> -->
                                             </ul>
                                         </div>
                                     </div>
                                 </div>
 
-                                <div class="info-slide-item"><!-- 3 -->
-                                    <div class="top-border-green">
-                                        <ul class="mini-portfolio">
-                                            <li class="bigp-1"><div class="minispan"><span>See My Portfolio</span></div></li>
-                                        </ul>
-                                    </div>
-                                </div>
+                                
 
-                                <div class="info-slide-item"><!-- 4 -->
-                                    <div class="top-border-yellow">
-                                        <div class="mini-location">
-                                            <div class="mini-icon-pin"></div>
-                                            <div class="mini-location-text">New York City, United States</div>
-                                        </div>
-                                    </div>
-                                </div>
+                                
 
                             </div>
                             <div class="clear"></div>
@@ -124,13 +130,14 @@
 
                 <div class="floatlimit"></div>
 
-            </div><!-- /AboutMe -->
+            </div>
+            <!-- /AboutMe -->
 
             <!-- NAVIGATION -->
             <div id="nav">
 
                 <div id="logo">
-                    <h2>Johnny Doe</h2>
+                    <h2>William WANG</h2>
                 </div>
 
                 <ul class="etabs">
@@ -161,7 +168,8 @@
                     </li>
                 </ul>
 
-            </div><!-- /NAVIGATION -->
+            </div>
+            <!-- /NAVIGATION -->
 
             <!-- RESUME -->
             <div id="resume">
@@ -169,15 +177,14 @@
 
                 <div class="left-column">
                     <div class="substrate">
-                        <h2>My Card</h2>
-                        <img src="images/photocontent/about_photo.jpg" alt="">
+                        <img class='resume-me' src="images/me.jpg" alt="">
                         <ul class="main-info-list">
-                            <li>Name<span>Johnny Doe</span><div class="floatlimit"></div></li>
-                            <li>Birthday<span>January 31, 1986</span><div class="floatlimit"></div></li>
-                            <li>Address<span>New York City, United States</span><div class="floatlimit"></div></li>
-                            <li>Phone<span>+0 (123) 456 789</span><div class="floatlimit"></div></li>
-                            <li>Email<span>mymail@mail.com</span><div class="floatlimit"></div></li>
-                            <li>Website<span>www.mysite.com</span><div class="floatlimit"></div></li>
+                            <li>Name<span>William WANG</span><div class="floatlimit"></div></li>
+                            <li>出生日期<span>Jun 29, 1989</span><div class="floatlimit"></div></li>
+                            <li>Address<span>Shen Zhen</span><div class="floatlimit"></div></li>
+                            <li>Mainland Phone<span>+86 181 1876 1856</span><div class="floatlimit"></div></li>
+                            <li>HK Phone<span>+852 5136 3691</span><div class="floatlimit"></div></li>
+                            <li>Email<span>wjiuhe@gmail.com</span><div class="floatlimit"></div></li>
                         </ul>
                         <a href="#" class="button"><!-- Button Download vCard -->
                             <div class="button-big button-blue">
@@ -188,26 +195,28 @@
                         <div class="paper-clip"></div>
                     </div>
                     <div class="substrate">
-                        <h2>My Skills</h2>
-                        <h3>Graphic Skills</h3>
+                        <h2>Skills</h2>
+                        <h3>Coding</h3>
                         <ul class="skills">
-                            <li class="skill">Photoshop<span class="skill-blue-star-5"></span></li>
-                            <li class="skill">Illustrator<span class="skill-blue-star-3"></span></li>
-                            <li class="skill">CorelDraw<span class="skill-blue-star-4"></span></li>
-                            <li class="skill">Corel Painter<span class="skill-blue-star-5"></span></li>
+                            <li class="skill">Python<span class="skill-blue-star-5"></span></li>
+                            <li class="skill">Others<span class="skill-blue-star-3"></span></li>
                         </ul>
-                        <h3>Web Design</h3>
+                        <h3>Web & Design</h3>
                         <ul class="skills">
-                            <li class="skill">HTML+CSS<span class="skill-blue-fill-5"></span></li>
-                            <li class="skill">Javascript<span class="skill-blue-fill-2"></span></li>
-                            <li class="skill">Php<span class="skill-blue-fill-4"></span></li>
-                            <li class="skill">HTML+CSS<span class="skill-blue-fill-5"></span></li>
+                            <li class="skill">HTML+CSS<span class="skill-blue-fill-4"></span></li>
+                            <li class="skill">Javascript<span class="skill-blue-fill-4"></span></li>
+                            <li class="skill">Django<span class="skill-blue-fill-4"></span></li>
+                            <li class="skill">gunicorn<span class="skill-blue-fill-4"></span></li>
+                            <li class="skill">nginx<span class="skill-blue-fill-4"></span></li>
+                            <li class="skill">Photoshp<span class="skill-blue-fill-3"></span></li>
                         </ul>
-                        <h3>3 Styles of Skills</h3>
+                        <h3>Data</h3>
                         <ul class="skills">
-                            <li class="skill">Stars<span class="skill-blue-stroke-3"></span></li>
-                            <li class="skill">Fill<span class="skill-blue-stroke-5"></span></li>
-                            <li class="skill">Stroke<span class="skill-blue-stroke-4"></span></li>
+                            <li class="skill">Pandas<span class="skill-blue-stroke-5"></span></li>
+                            <li class="skill">MongoDB<span class="skill-blue-stroke-4"></span></li>
+                            <li class="skill">Redis<span class="skill-blue-stroke-4"></span></li>
+                            <li class="skill">SQL<span class="skill-blue-stroke-4"></span></li>
+                            <li class="skill">R,SAS,SPSS<span class="skill-blue-stroke-3"></span></li>
                         </ul>
                         <div class="paper-clip"></div>
                     </div>
@@ -215,41 +224,57 @@
 
                 <div class="right-column">
                     <div class="substrate gradient-blue font-blue">
-                        <h2>About Me</h2>
-                        <h3>Hi, My name is John...</h3>
-                        <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                        <h2>About me</h2>
+                        <h3>Hello,</h3>
+                        <p>
+                            我毕业于香港城市大学，主修应用物理学与管理科学，目前工作以建立公司科学与智能办工，提高业务运营效率，推动产业升级为主。
+                        </p>
                     </div>
                     <div class="substrate">
-                        <h2>Employment</h2>
+                        <h2>任职情况</h2>
                         <div class="left-blue">
                             <div class="time-period-left-blue"></div><!-- Keep empty. This class used for creating a point on the line. Use "time-period-right-***".-->
-                            <h3>Designer<span class="time-period-right-blue">2011 - 2012</span></h3>
-                            <h4>Some information</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscingVivamus amet ligula non lectus cursus egestas. Cras erat lorem, fringilla quis sagittis in, sagittis inNam leo tortor Nam leo tortor Vivamus.</p>
+                            <h3>Business Analyst @ NaturalFarm Ltd<span class="time-period-right-blue">2015-</span></h3>
+                            <h4>
+                                构建基于Python, Django，MongoDB, Nginx, gunicorn的科学与智能办公系统，农场管理、追溯系统，逐步实现智慧农业。
+                            </h4>
+                            <p>
+                                设计、开发、维护、运营公司订单处理系统<br>
+                                设计、开发、维护、运营农场管理系统<br>
+                                设计、开发、维护、运营pdf订单邮箱自动化处理系统<br>
+                                设计、开发、维护、运营农场可追溯系统<br>
+                                设计、开发、维护、运营公司内部各部门智能办工工具<br>
+                            </p>
                             <div class="time-period-left-blue"></div><!-- Keep empty. This class used for creating a point on the line. Use "time-period-right-***".-->
-                            <h3>UI Designer<span class="time-period-right-blue">2011</span></h3>
-                            <h4>Some information</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscingVivamus amet ligula non lectus cursus egestas.</p>
+                            <h3>Business Analyst @ Cypress Jade (HK875)<span class="time-period-right-blue">2014-2015</span></h3>
+                            <h4>
+                                基于Python，Django，MongoDB，Redis，Nginx，Celery， nvd3，bootstrap
+                                于Linux（Ubuntu或Centos）平台设计并实现公司运营的科学化智能化
+                            </h4>
+                            <p>
+                                负责设计、开发、运营公司内部数据统计系统<br>
+                                负责设计、开发、运营与维护公司业务处理系统<br>
+                                负责设计、开发、运营公司管理层通知与报告系统<br>
+                                负责进行供应商系统使用培训，协调供应商业务运作<br>
+                            </p>
                             <div class="time-period-left-blue"></div><!-- Keep empty. This class used for creating a point on the line. Use "time-period-right-***".-->
-                            <h3>Web Designer</h3>
-                            <h4>Some information</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscingVivamus amet ligula non lectus cursus egestas. Cras erat lorem, fringilla quis sagittis in, sagittis inNam leo tortor Nam leo tortor Vivamus.</p>
+                            <h3>Research Assistant @ City University of Hong Kong<span class="time-period-right-blue">2010-2013</span></h3>
+                            
+                            <p>科研工作，课题研究</p>
                         </div>
                     </div>
                     <div class="substrate">
-                        <h2>Education. Second Variant.</h2>
+                        <h2>Education</h2>
                         <div class="left-blue">
-                            <div class="time-period-left-blue">2012</div>
+                            <div class="time-period-left-blue">2013-2014</div>
                             <div class="info-period">
-                                <h3>Designer</h3>
-                                <h4>School of Art and Design</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscingVivamus sit amet ligula non lectus cursus egestas.</p>
+                                <h3>Master of Quantitative Analysis for Business</h3>
+                                <h4>@City University of Hong Kong</h4>
                             </div>
                             <div class="time-period-left-blue">2008 - 2012</div>
                             <div class="info-period">
-                                <h3>Designer</h3>
-                                <h4>School of Art</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscingVivamus sit amet ligula non lectus cursus egestas. Cras erat lorem, fringilla quis sagittis in, sagittis inNam leo tortor Nam leo tortor Vivamus.</p>
+                                <h3>Bachelor of Science in Applied Physics (1st Class Honor)</h3>
+                                <h4>@City University of Hong Kong</h4>
                             </div>
                         </div>
                     </div>
@@ -258,11 +283,11 @@
 
                 <div class="floatlimit"></div>
 
-            </div><!-- /RESUME -->
+            </div><!-- /RESUME --><!-- /RESUME -->
 
-            <!-- PORTFOLIO -->
+            <!-- Recent Reading -->
             <div id="portfolio">
-                <div class="fill-green">Portfolio</div>
+                <div class="fill-green">Recent Reading</div>
 
                 <div class="full-width">
                                        
@@ -276,34 +301,34 @@
                             </a>
                         </li>
                         <li>
-                            <a href="" class="button" data-filter=".f-photo">
+                            <a href="" class="button" data-filter=".f-politics">
                                 <div class="button-small button-green">
                                     <div class="button-anim-border"></div>
-                                    <div class="button-small-label">Photos</div>
+                                    <div class="button-small-label">Politics</div>
                                 </div>
                             </a>
                         </li>
                         <li>
-                            <a href="" class="button" data-filter=".f-youtube">
+                            <a href="" class="button" data-filter=".f-learning">
                                 <div class="button-small button-green">
                                     <div class="button-anim-border"></div>
-                                    <div class="button-small-label">YouTube</div>
+                                    <div class="button-small-label">Learning</div>
                                 </div>
                             </a>
                         </li>
                         <li>
-                            <a href="" class="button" data-filter=".f-vimeo">
+                            <a href="" class="button" data-filter=".f-lifestyle">
                                 <div class="button-small button-green">
                                     <div class="button-anim-border"></div>
-                                    <div class="button-small-label">Vimeo</div>
+                                    <div class="button-small-label">Life</div>
                                 </div>
                             </a>
                         </li>
                         <li>
-                            <a href="" class="button" data-filter=".f-video">
+                            <a href="" class="button" data-filter=".f-others">
                                 <div class="button-small button-green">
                                     <div class="button-anim-border"></div>
-                                    <div class="button-small-label">All Video</div>
+                                    <div class="button-small-label">Others</div>
                                 </div>
                             </a>
                         </li>
@@ -311,64 +336,84 @@
                     
                     <ul id="portfolio-content" class="top-border-green"><!-- Portfolio Content --><!-- See Documentation for more info -->
 
-                        <li class="f-photo view">
-                            <a href="images/photocontent/portfolio_01.jpg" class="fancybox" rel="group" title="Title">
+                        <li class="f-politics view">
+                            <a href="images/books/WhiteHouseYears.jpg" class="fancybox" rel="group" title="White House Years">
                                 <div class="div-info">
                                     <div class="thumb-icon-photo"></div>
-                                    <div class="thumb-name">Title</div>
+                                    <div class="thumb-name">White House Years</div>
                                 </div>
                             </a>
-                            <img src="images/photocontent/portfolio_thumb_01.jpg" alt="">
+                            <img class='fillheight' src="images/books/WhiteHouseYears.jpg" alt="">
                         </li>
 
-                        <li class="f-video f-youtube view">
-                            <a href="http://www.youtube.com/watch?v=bJdZZfLqXDU" class="fancybox-media">
-                                <div class="div-info">
-                                    <div class="thumb-icon-youtube"></div>
-                                    <div class="thumb-name">Title</div>
-                                </div>
-                            </a>
-                            <img src="images/photocontent/portfolio_thumb_02.jpg" alt=""/>
-                        </li>
-
-                        <li class="f-photo view">
-                            <a href="images/photocontent/portfolio_03.jpg" class="fancybox" rel="group" title="Title">
+                        <li class="f-politics view">
+                            <a href="images/books/OnChina.jpg" class="fancybox" rel="group" title="On China">
                                 <div class="div-info">
                                     <div class="thumb-icon-photo"></div>
-                                    <div class="thumb-name">Title</div>
+                                    <div class="thumb-name">On China</div>
                                 </div>
                             </a>
-                            <img src="images/photocontent/portfolio_thumb_03.jpg" alt=""/>
+                            <img class='fillheight' src="images/books/OnChina.jpg" alt="">
                         </li>
 
-                        <li class="f-video f-youtube view">
-                            <a href="http://www.youtube.com/watch?v=7_L_5vrHoWQ&hd=1" class="fancybox-media">
-                                <div class="div-info">
-                                    <div class="thumb-icon-youtube"></div>
-                                    <div class="thumb-name">Title</div>
-                                </div>
-                            </a>
-                            <img src="images/photocontent/portfolio_thumb_04.jpg" alt=""/>
-                        </li>
-
-                        <li class="f-video f-vimeo view">
-                            <a href="http://vimeo.com/51704432" class="fancybox-media" >
-                                <div class="div-info">
-                                    <div class="thumb-icon-vimeo"></div>
-                                    <div class="thumb-name">Title</div>
-                                </div>
-                            </a>
-                            <img src="images/photocontent/portfolio_thumb_05.jpg" alt=""/>
-                        </li>
-
-                        <li class="f-photo view">
-                            <a href="images/photocontent/portfolio_06.jpg" class="fancybox" rel="group" title="Title">
+                        <li class="f-politics view">
+                            <a href="images/books/WorldOrder.jpg" class="fancybox" rel="group" title="World Order">
                                 <div class="div-info">
                                     <div class="thumb-icon-photo"></div>
-                                    <div class="thumb-name">Title</div>
+                                    <div class="thumb-name">World Order</div>
                                 </div>
                             </a>
-                            <img src="images/photocontent/portfolio_thumb_06.jpg" alt=""/>
+                            <img class='fillheight' src="images/books/WorldOrder.jpg" alt="">
+                        </li>
+
+                        <li class="f-lifestyle view">
+                            <a href="images/books/TheSecretOfChildhood.jpg" class="fancybox" rel="group" title="The Secret of Childhood">
+                                <div class="div-info">
+                                    <div class="thumb-icon-photo"></div>
+                                    <div class="thumb-name">The Secret of Childhood</div>
+                                </div>
+                            </a>
+                            <img class='fillheight' src="images/books/TheSecretOfChildhood.jpg" alt="">
+                        </li>
+
+                        <li class="f-others view">
+                            <a href="images/books/BriefHistoryOfHumankind.jpg" class="fancybox" rel="group" title="Brief History of Humankind">
+                                <div class="div-info">
+                                    <div class="thumb-icon-photo"></div>
+                                    <div class="thumb-name">Brief History of Humankind</div>
+                                </div>
+                            </a>
+                            <img class='fillheight' src="images/books/BriefHistoryOfHumankind.jpg" alt="">
+                        </li>
+
+                        <li class="f-learning view">
+                            <a href="images/books/ThePowerOfHabit.jpg" class="fancybox" rel="group" title="The Power of Habit">
+                                <div class="div-info">
+                                    <div class="thumb-icon-photo"></div>
+                                    <div class="thumb-name">The Power of Habit</div>
+                                </div>
+                            </a>
+                            <img class='fillheight' src="images/books/ThePowerOfHabit.jpg" alt="">
+                        </li>
+
+                        <li class="f-lifestyle view">
+                            <a href="images/books/GrainBrain.jpg" class="fancybox" rel="group" title="Grain Brain">
+                                <div class="div-info">
+                                    <div class="thumb-icon-photo"></div>
+                                    <div class="thumb-name">Grain Brain</div>
+                                </div>
+                            </a>
+                            <img class='fillheight' src="images/books/GrainBrain.jpg" alt="">
+                        </li>
+                        
+                        <li class="f-learning view">
+                            <a href="images/books/PEAK.jpg" class="fancybox" rel="group" title="PEAK">
+                                <div class="div-info">
+                                    <div class="thumb-icon-photo"></div>
+                                    <div class="thumb-name">PEAK</div>
+                                </div>
+                            </a>
+                            <img class='fillheight' src="images/books/PEAK.jpg" alt="">
                         </li>
 
                     </ul><!-- /Portfolio Content -->
@@ -376,40 +421,7 @@
 
                 <div class="floatlimit"></div>
 
-            </div><!-- /PORTFOLIO -->
-
-
-            <!-- FOOTER -->
-            <div class="footer">
-                <div class="left-column"><p>ArtRow, Copyright © 2013</p></div>
-                <div class="right-column">
-                    
-                    <div class="social"><!-- Social icons -->
-                        <ul>
-                            <li class="twitter">
-                                <a href="#"><div class="icon-twitter"></div></a>
-                            </li>
-                            <li class="facebook">
-                                <a href="#"><div class="icon-facebook"></div></a>
-                            </li>
-                            <li class="vimeo">
-                                <a href="#"><div class="icon-vimeo"></div></a>
-                            </li>
-                            <li class="instagram">
-                                <a href="#"><div class="icon-instagram"></div></a>
-                            </li>
-                            <li class="linkedin">
-                                <a href="#"><div class="icon-linkedin"></div></a>
-                            </li>
-                            <li class="pinterest">
-                                <a href="#"><div class="icon-pinterest"></div></a>
-                            </li>
-                        </ul>
-                    </div><!-- /Social icons -->
-
-                </div>
-                <div class="floatlimit"></div>
-            </div><!-- /FOOTER -->
+            </div><!-- /Recent Reading -->
 
         </div><!-- /Main Content -->
         </div><!-- /Shadow -->
